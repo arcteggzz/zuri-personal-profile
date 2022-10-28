@@ -3,8 +3,8 @@ import "./Link.css"
 function Link() {
     return (
       <div className="">
-            <a className="link">
-                Name
+            <a className="link" href="#">
+              Name
             </a>
       </div>
     );
