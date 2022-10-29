@@ -1,0 +1,24 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 120px 114px 48px 114px;
+}
+
+.footnote {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+}
+
+#zuri_img{
+    width: auto;
+    height: 24.7px;
+}
+
+#ingressive_img {
+    width: auto;
+    height: 32px;
+}

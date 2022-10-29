@@ -1,11 +1,17 @@
 import "./Link.css"
 
-function Link() {
+function Link(props) {
     return (
       <div className="">
-            <p className="link">
-              Name
-            </p>
+        <a
+          className="link"
+          href = {props.idLink}
+          id= {props.id}
+          target="_blank"
+          rel="noreferrer"
+        >
+          {props.nameTag}
+        </a>
       </div>
     );
 }

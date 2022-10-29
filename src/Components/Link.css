@@ -1,10 +1,13 @@
 .link {
+    display: block;
     background: #EAECF0;
     font-weight: 500;
     font-size: 18px;
     color: #101828;
     padding: 24px 0;
-    width: 100%;
     border: 1px solid #EAECF0;
     border-radius: 8px;
+    text-align: center;
+    text-decoration: none; 
+    margin: 12px 144px;
 }
