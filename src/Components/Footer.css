@@ -3,6 +3,8 @@
     justify-content: space-between;
     align-items: center;
     margin: 120px 114px 48px 114px;
+    border-top: 1px solid #d4dbeb;
+    padding: 60px 0 0 0;
 }
 
 .footnote {
@@ -21,4 +23,12 @@
 #ingressive_img {
     width: auto;
     height: 32px;
+}
+
+@media screen and (max-width: 480px) {
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 80px 16px 64px 16px;
+    }
 }
