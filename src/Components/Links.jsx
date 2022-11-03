@@ -21,7 +21,7 @@ function Links() {
         <div className="">
           <a
             className="link"
-            href = "google.com"
+            href = "/contact"
             id= "contact"
             rel="noreferrer"
           >
