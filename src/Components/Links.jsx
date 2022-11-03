@@ -19,17 +19,7 @@ function Links() {
             )
           })
         }
-        <div className="">
-          <a
-            className="link"
-            href = "/contact"
-            id= "contact"
-            rel="noreferrer"
-          >
-            Contact Me
-          </a>
-        </div>
-        <div><Link to="/contact" className="link">Contact Me tega</Link></div>  
+        <div><Link to="/contact" className="link">Contact me</Link></div>  
       </div> 
       <svg width="1216" height="72" viewBox="0 0 1216 72" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect width="1216" height="72" fill="white"/>

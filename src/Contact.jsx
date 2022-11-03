@@ -19,7 +19,7 @@ function Contact() {
                     </div>
                     <div className='text-name-field'>
                         <label for="last_name">Last name</label>
-                        <input id="first_name" type="text" placeholder="Enter your last name" required pattern="^[a-zA-Z]{3,8}\s[a-zA-Z]{3,8}" />
+                        <input id="last_name" type="text" placeholder="Enter your last name" required pattern="^[a-zA-Z]{3,8}\s[a-zA-Z]{3,8}" />
                     </div>
                 </div>
 
