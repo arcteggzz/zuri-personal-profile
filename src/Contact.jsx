@@ -26,23 +26,23 @@ function Contact() {
                 {/* email */}
                 <div className='text-email-field'>
                     <label for="last_name">Email</label>
-                    <input id="first_name" type="email" placeholder="yourname@email.com" required />
+                    <input id="email" type="email" placeholder="yourname@email.com" required />
                 </div>
 
                 {/* message */}
                 <div className='text-email-field'>
                     <label for="last_name">Message</label>
-                    <textarea id="first_name" placeholder="Send me a message and I'll reply you as soon as possible..." required />
+                    <textarea id="message" placeholder="Send me a message and I'll reply you as soon as possible..." required />
                 </div>
 
                 {/* checkbox */}
                 <div class="checkbox">
-                    <input type="checkbox" id="" class="checkbox-box" />
-                    <label class="md:text-[14px] font-[500] text-[#344054] md:leading-[20px]">You agree to providing your data to arcteggzz who may contact you.</label>
+                    <input type="checkbox" id="" className="checkbox-box" />
+                    <label className="">You agree to providing your data to arcteggzz who may contact you.</label>
                 </div>
 
                 {/* button */}
-                <button className="" type="submit">
+                <button className="" type="submit" id="btn__submit">
                     Send message
                 </button>
             </form>

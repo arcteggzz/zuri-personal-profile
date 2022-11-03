@@ -18,6 +18,16 @@ function Links() {
             )
           })
         }
+        <div className="">
+          <a
+            className="link"
+            href = "google.com"
+            id= "contact"
+            rel="noreferrer"
+          >
+            Contact Me
+          </a>
+        </div>  
       </div> 
       <svg width="1216" height="72" viewBox="0 0 1216 72" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect width="1216" height="72" fill="white"/>
@@ -34,16 +44,6 @@ function Links() {
         </clipPath>
         </defs>
       </svg>
-      <div className="">
-        <a
-          className="link"
-          href = {props.idLink}
-          id= {props.id}
-          rel="noreferrer"
-        >
-          Contact Me
-        </a>
-      </div>
     </div>
   );
 }
