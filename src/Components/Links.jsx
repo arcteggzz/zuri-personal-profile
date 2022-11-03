@@ -34,6 +34,16 @@ function Links() {
         </clipPath>
         </defs>
       </svg>
+      <div className="">
+        <a
+          className="link"
+          href = {props.idLink}
+          id= {props.id}
+          rel="noreferrer"
+        >
+          Contact Me
+        </a>
+      </div>
     </div>
   );
 }
