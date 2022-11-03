@@ -103,5 +103,22 @@ button {
     cursor: pointer;
 }
 
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 0 16px;
+    }
+
+    form{
+        width: 340px;
+        margin: 64px 0 0 0;
+    }
+
+    .names-inputs {
+        width: 340px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px 0;
+    }
+}
 
 
