@@ -1,5 +1,6 @@
 import "./Links.css"
-import Link from "./Link"
+import LinkPersona from "./Link"
+import {Link} from "react-router-dom"
 import LinkData from "../Data/LinksData";
 
 function Links() {
@@ -9,7 +10,7 @@ function Links() {
         {
           LinkData.map((link,index) => {
             return(
-              <Link
+              <LinkPersona
                 key = {index}
                 nameTag = {link.nameTag}
                 id = {link.id}
@@ -27,7 +28,8 @@ function Links() {
           >
             Contact Me
           </a>
-        </div>  
+        </div>
+        <div><Link to="/contact" className="link">Contact Me tega</Link></div>  
       </div> 
       <svg width="1216" height="72" viewBox="0 0 1216 72" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect width="1216" height="72" fill="white"/>
